@@ -1,4 +1,4 @@
-# WiiNetworkLoader
+# Wii Network Loader
 A network/SD loader for the Wii.
 
 IMPORTANT (If using this for str2hax): Please make sure you update the Makefile line `include $(DEVKITPPC)/wii_rules` to point to a version of libogc that is built with -Os otherwise your payload will not fit in memory.
