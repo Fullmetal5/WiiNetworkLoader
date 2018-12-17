@@ -199,8 +199,8 @@ int main(int argc, char **argv) {
 			nc.connection[i].dns1[1] = 8;
 			nc.connection[i].dns1[2] = 8;
 			nc.connection[i].dns1[3] = 8;
-			nc.connection[i].dns2[0] = 4;
-			nc.connection[i].dns2[1] = 4;
+			nc.connection[i].dns2[0] = 8;
+			nc.connection[i].dns2[1] = 8;
 			nc.connection[i].dns2[2] = 4;
 			nc.connection[i].dns2[3] = 4;
 		}
