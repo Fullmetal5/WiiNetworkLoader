@@ -6,6 +6,7 @@
 #include <gccore.h>
 #include <network.h>
 #include <errno.h>
+#include <ogc/machine/processor.h>
 
 #define RESET_DNS 1
 
@@ -14,7 +15,6 @@
 extern void __exception_closeall(void);
 #include "elf_loader.h"
 #include "fat.h"
-#include "processor.h"
 #include "sd.h"
 #include "sync.h"
 
